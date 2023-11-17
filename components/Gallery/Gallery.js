@@ -56,27 +56,6 @@ const portfolio = [
     size: 'short',
     category: 'cat3'
   },
-  {
-    img: imgAPI.maskulino[12],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat1'
-  },
-  {
-    img: imgAPI.maskulino[14],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat2'
-  },
-  {
-    img: imgAPI.maskulino[13],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
-    category: 'cat2'
-  },
 ];
 
 function Gallery() {
@@ -178,18 +157,6 @@ function Gallery() {
             className={filter === 'cat3' ? classes.selected : ''}
           >
             Category 3
-          </Button>
-          <Button
-            onClick={() => filterChildren('cat4')}
-            className={filter === 'cat4' ? classes.selected : ''}
-          >
-            Category 4
-          </Button>
-          <Button
-            onClick={() => filterChildren('cat5')}
-            className={filter === 'cat5' ? classes.selected : ''}
-          >
-            Category 5
           </Button>
         </div>
         {!isTablet ? (

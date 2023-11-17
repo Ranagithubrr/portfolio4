@@ -29,24 +29,24 @@ function About() {
               <div className={classes.reward}>
                 <div className={classes.item}>
                   <figure>
-                    <img src="/images/maskulino/reward1.svg" alt="badge" />
+                    <img src="/images/nifty_logo.png" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>Special Mention</Typography>
-                  <Typography variant="h5" className={text.subtitle}>Awards</Typography>
+                  <Typography component="p" className={text.paragraph}>Intern at</Typography>
+                  <Typography variant="h5" className={text.subtitle}>Nifty IT </Typography>
                 </div>
                 <div className={classes.item}>
                   <figure>
-                    <img src="/images/maskulino/reward2.svg" alt="badge" />
+                    <img src="/images/projects.webp" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>100k videos</Typography>
-                  <Typography variant="h5" className={text.subtitle}>Subscriber</Typography>
+                  <Typography component="p" className={text.paragraph}>20+</Typography>
+                  <Typography variant="h5" className={text.subtitle}>Projects</Typography>
                 </div>
                 <div className={classes.item}>
                   <figure>
-                    <img src="/images/maskulino/reward3.svg" alt="badge" />
+                    <img src="/images/experience.png" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>Best Filmography</Typography>
-                  <Typography variant="h5" className={text.subtitle}>Footage</Typography>
+                  <Typography component="p" className={text.paragraph}>Experience of</Typography>
+                  <Typography variant="h5" className={text.subtitle}>2 Years</Typography>
                 </div>
               </div>
               {!isDesktop && (

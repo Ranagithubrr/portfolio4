@@ -2,7 +2,7 @@ import { makeStyles } from 'tss-react/mui';
 
 const counterStyles = makeStyles({ uniqId: 'counter' })(theme => ({
   counterWrap: {
-    background: theme.palette.mode === 'dark' ? theme.palette.primary.dark : theme.palette.primary.light,
+    background: theme.palette.mode === 'dark' ? theme.palette.primary.dark : '#e7e7e782',
     padding: theme.spacing(5, 0)
   },
   text: {

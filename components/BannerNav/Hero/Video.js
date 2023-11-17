@@ -32,7 +32,7 @@ function Video() {
   return (
     <div className={classes.video}>
       <YouTube
-        videoId="-Ynq7oTcUyI"
+        videoId="RR2EI8EEOOw"
         opts={opts}
         onReady={_onReady}
         onEnd={_onEnd}

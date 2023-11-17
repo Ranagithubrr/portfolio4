@@ -6,7 +6,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
 import { useTranslation } from 'next-i18next';
-import logo from '~/public/images/maskulino-logo.svg';
+import logo from '~/public/images/R.png';
 import useStyles from './sidenav-icon-style';
 import navMenu from './menu';
 

@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Fade from '@mui/material/Fade';
 import { useTranslation } from 'next-i18next';
-import logo from '~/public/images/maskulino-logo.svg';
+import logo from '~/public/images/R.png';
 import brand from '~/public/text/brand';
 import { useText } from '~/theme/common';
 import routeLink from '~/public/text/link';
@@ -200,13 +200,13 @@ function Header(props) {
                       <Typography className={text.paragraph}>
                         {t('maskulino-landing.footer_contact')}
                         <br />
-                        +12 345 678 90
+                        +880199672640
                       </Typography>
                       <Divider className={classes.divider} />
                       <Typography className={text.paragraph}>
                         {t('maskulino-landing.footer_hello')}
                         <br />
-                        jenadoe.skype
+                        ranarr.dev@gmail.com
                       </Typography>
                     </div>
                   </div>

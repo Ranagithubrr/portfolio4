@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import { makeStyles } from 'tss-react/mui';
 import CssBaseline from '@mui/material/CssBaseline';
-import useMediaQuery from '@mui/material/useMediaQuery';
+// import useMediaQuery from '@mui/material/useMediaQuery';
 // Use this below for Server Side Render/Translation (SSR)
 // import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 // Use this below for Static Site Generation (SSG)
@@ -17,11 +17,9 @@ import Counter from '~/components/Counter';
 import Services from '~/components/Services';
 import Gallery from '~/components/Gallery';
 import Testimonials from '~/components/Testimonials';
-import Blog from '~/components/Blog';
+// import Blog from '~/components/Blog';
 import Footer from '~/components/Footer';
-import PageNav from '~/components/PageNav';
 import Decoration from '~/components/Parallax/Decoration';
-import Notification from '~/components/Notification';
 
 const sectionMargin = margin => (margin * 20);
 const useStyles = makeStyles({ uniqId: 'home' })(theme => ({
@@ -72,13 +70,12 @@ const useStyles = makeStyles({ uniqId: 'home' })(theme => ({
 function Landing(props) {
   const { classes, cx } = useStyles();
   const { onToggleDark, onToggleDir } = props;
-  const isTablet = useMediaQuery(theme => theme.breakpoints.down('lg'));
 
   return (
     <React.Fragment>
       <Head>
         <title>
-          { brand.maskulino.name + ' - Profile' }
+          {brand.maskulino.name + ' - Profile'}
         </title>
       </Head>
       <CssBaseline />
@@ -116,19 +113,13 @@ function Landing(props) {
               <Decoration />
             </div>
             <section id="blog" className={classes.spaceTopShort}>
-              <Blog />
+              {/* <Blog /> */}
             </section>
             <section id="contact" className={classes.spaceTop}>
               <Footer />
             </section>
           </div>
         </div>
-        {!isTablet && (
-          <Fragment>
-            <Notification />
-            <PageNav />
-          </Fragment>
-        )}
       </div>
     </React.Fragment>
   );

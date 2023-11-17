@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Carousel from 'react-slick';
@@ -14,12 +14,12 @@ const services = [
   {
     icon: 'ion-ios-color-wand',
     name: 'UI Interface Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    desc: 'Basic idea of UI Design'
   },
   {
-    icon: 'ion-logo-dribbble',
-    name: 'Icon Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-ios-desktop',
+    name: 'React Application',
+    desc: 'Functional React Web Applications'
   },
   {
     icon: 'ion-ios-globe',
@@ -27,9 +27,9 @@ const services = [
     desc: 'Pellentesque ac  vel blandit nulla.'
   },
   {
-    icon: 'ion-ios-camera',
-    name: 'Photo Editing',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-ios-laptop',
+    name: 'Responsive View',
+    desc: 'Responsive web Application in every device'
   },
   {
     icon: 'ion-ios-snow',

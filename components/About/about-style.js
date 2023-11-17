@@ -1,5 +1,5 @@
 import { makeStyles } from 'tss-react/mui';
-const gold = '#D6BD96';
+const gold = '#3A82B1';
 
 const aboutStyles = makeStyles({ uniqId: 'about' })(theme => ({
   root: {
